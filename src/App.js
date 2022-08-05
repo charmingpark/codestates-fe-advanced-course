@@ -1,27 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
-import "./styles.css";
+// import reset from "styled-reset";
+// import { createGlobalStyle } from "styled-components";
+import {
+  HoverCards,
+  Container, 
+  Content
+} from "./style/default_card";
+
 
 function App() {
 
-  
   return (
-    <div className="app">
-      <div className="hover_cards">
-      <div className="container">
-        <div className="card1">
+    <HoverCards>
+      <Container>
+        <li className="card">
           <div className="box">
-            <div className="content">
+            <Content>
               <h2>{"id"}</h2>
               <h3>userId : {"1"}</h3>
               <p>title : {"title"}</p>
               <a href>Read More</a>
-            </div>
+            </Content>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
+        </li>
+      </Container>
+    </HoverCards>
   );
 }
 
