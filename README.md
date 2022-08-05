@@ -1,5 +1,5 @@
 # codestates-fe-advanced-course
-가자!! FE-ADVANCED!!
+하루 동안 급하게 만들어 본 미니프로젝트
 
 <h2>완성된 GIF 파일 및 배포 링크</h2>
 ![pagination](https://user-images.githubusercontent.com/48824935/183075404-972924d5-0545-4251-84be-ccca468a99ec.gif)<br/>
@@ -10,7 +10,7 @@
 댓글을 단 유저네임과 다섯 개의 댓글을 모두 확인할 수 있다.<br/>
 
 
-<h3><a href="" target='_blank'>🖥 배포 사이트로 바로가기  </a></h3>
+<h3><a href="http://feadvanceassign.s3-website.ap-northeast-2.amazonaws.com/" target='_blank'>🖥 배포 사이트로 바로가기  </a></h3>
 
 *** 
 <h2> 프로젝트 실행 방법 </h2>
