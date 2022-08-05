@@ -1,12 +1,11 @@
 import styled from "styled-components";
 
 export const HoverCards = styled.div `
+position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  min-height: 100vh;
-  background: #232427;
 `;
 
 export const Container = styled.ul `
@@ -16,7 +15,7 @@ export const Container = styled.ul `
   align-items: center;
   flex-wrap: wrap;
   max-width: 1200px;
-  margin: 40px 0;
+  margin: 20px 0;
 
   li.card {
     position: relative;
@@ -29,14 +28,14 @@ export const Container = styled.ul `
     border-radius: 15px;
     margin: 30px;
 
-    &:nth-child(3n + 1) .box a {
-      background: #2196f3; 
-    }
-    &:nth-child(3n + 2) .box a {
-      background: #e91e63;
-    }
-    &:nth-child(3n + 3) .box a {
-      background: #97dc47;
+    & .box button {
+      background: #26d367;
+       
+      &:hover {
+      background: #0078d7;
+      color:#fff;
+
+      }
     }
 
   }
@@ -85,7 +84,8 @@ export const Content = styled.div `
     top: -10px;
     right: 30px;
     font-size: 8em;
-    color: rgba(255, 255, 255, 0.05)
+    color: rgba(255, 255, 255, 0.05);
+    font-style: italic;
   }
 
   h3 {
@@ -103,16 +103,26 @@ export const Content = styled.div `
     transition: 0.5s;
   }
 
-  a {
+  button {
     position: relative;
     display: inline-block;
     padding: 8px 20px;
-    background: #000;
     margin-top: 15px;
     border-radius: 20px;
     text-decoration: none;
     font-weight: 400;
-    color: #fff;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+`;
+
+export const Error = styled.div `
+	color: #cc3535;
+	position: absolute;
+	padding:5px;
+	font-weight: 500;
+
+  &::before {
+    display: inline;
+    content: "⚠ ";
   }
 `;
