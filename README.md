@@ -2,7 +2,7 @@
 가자!! FE-ADVANCED!!
 
 <h2>완성된 GIF 파일 및 배포 링크</h2>
-![페이지네이션](https://discord.com/channels/@me/898547137208545290/1005078399980675082)<br/>
+![pagination](https://user-images.githubusercontent.com/48824935/183075404-972924d5-0545-4251-84be-ccca468a99ec.gif)<br/>
 10개씩 끊어 볼 수 있다.<br/>
 다음과 이전버튼을 사용할 수 있고, 맨 첫번째 장에서는 이전버튼을 disable속성을 주고, 마지막 장에서는 다음버튼을 disable속성을 주어 제어하였다.<br/>
 
